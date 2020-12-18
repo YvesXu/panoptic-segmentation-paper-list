@@ -15,7 +15,7 @@ TODO List
 ### Tasks
 [Panoptic segmentation](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kirillov_Panoptic_Segmentation_CVPR_2019_paper.pdf) unifies the typically distinct tasks of semantic segmentation (assign a class label to each pixel) and instance segmentation (detect and segment each object instance). Each pixel of an image must be assigned a semantic label and an instance id. Pixels with the same label and id belong to the same object; for stuff labels the instance id is ignored. 
 
-![Panoptic segmentation](http://hexotuchuang.oss-cn-beijing.aliyuncs.com/git/panoptic/panoptic.png)
+![Panoptic segmentation](https://github.com/YvesXu/panoptic-segmentation-paper-list/blob/main/img/panoptic.png)
 
 ### Metrics
 $$PQ = \frac{\sum_{(p,g)\in TP}IoU(p,g)}{|TP|+\frac{1}{2}|FP|+\frac{1}{2}|FP|} = \underbrace{\frac{\sum_{(p,g)\in TP}IoU(p,g)}{|TP|}}_{\text{segmentation quality (SQ)}}\times \underbrace{\frac{|TP|}{|TP|+\frac{1}{2}|FP|+\frac{1}{2}|FP|}}_{\text{recognition quality(RQ)}}$$

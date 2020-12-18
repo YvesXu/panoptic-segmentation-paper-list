@@ -145,26 +145,26 @@ https://ojs.aaai.org/index.php/AAAI/article/download/6955/6809) [[code]](https:/
 ### COCO 
 #### *val* set
 |title|PQ|PQ^Th^|PQ^St^|
-|-|-|-|-|-|
+|-|-|-|-|
 |OCFusion(ResNeXt-101)|46.3|53.5|35.4|
 |Panoptic-DeepLab(Xception-71)|41.2|44.9|35.7|
 |Real-Time Panoptic Segmentation(ResNet-50)|37.1|41.0|31.3|
 
 #### *test-dev* set
 |title|PQ|PQ^Th^|PQ^St^|
-|-|-|-|-|-|
+|-|-|-|-|
 |OCFusion(ResNeXt-101)|46.7|54.0|35.7|
 |Panoptic-DeepLab(Xception-71)|41.4|45.1|35.9|
 
 ### Mapillary Vistas
 #### *val* set
 |title|PQ|PQ^Th^|PQ^St^|
-|-|-|-|-|-|
+|-|-|-|-|
 |OCFusion|-|-|-|
 |Panoptic-DeepLab(Xception-71)|40.3|33.5|49.3|
 
 #### *test* set
 |title|PQ|PQ^Th^|PQ^St^|
-|-|-|-|-|-|
+|-|-|-|-|
 |OCFusion|-|-|-|
 |Panoptic-DeepLab(Xception-71)|42.7|35.9|51.6|

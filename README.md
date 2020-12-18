@@ -28,7 +28,7 @@ $$PQ = \frac{\sum_{(p,g)\in TP}IoU(p,g)}{|TP|+\frac{1}{2}|FP|+\frac{1}{2}|FP|} =
 
 ## Paper List
 ### CVPR
-####2020
+#### 2020
 - **[OCFusion]** Learning Instance Occlusion for Panoptic Segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lazarow_Learning_Instance_Occlusion_for_Panoptic_Segmentation_CVPR_2020_paper.pdf) [[code]](https://github.com/jlazarow/learning_instance_occlusion)
 
 - **[Panoptic-deeplab]** Panoptic-deeplab: A simple, strong, and fast baseline for bottom-up panoptic segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cheng_Panoptic-DeepLab_A_Simple_Strong_and_Fast_Baseline_for_Bottom-Up_Panoptic_CVPR_2020_paper.pdf) [[code]](https://github.com/facebookresearch/detectron2) [[unofficial code]](https://github.com/bowenc0221/panoptic-deeplab)
@@ -43,7 +43,7 @@ $$PQ = \frac{\sum_{(p,g)\in TP}IoU(p,g)}{|TP|+\frac{1}{2}|FP|+\frac{1}{2}|FP|} =
 - Bidirectional Graph Reasoning Network for Panoptic Segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wu_Bidirectional_Graph_Reasoning_Network_for_Panoptic_Segmentation_CVPR_2020_paper.pdf)
 
 
-####2019
+#### 2019
 - Panoptic Segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kirillov_Panoptic_Segmentation_CVPR_2019_paper.pdf) 
 
 - **[AUNet]** Attention-guided Unified Network for Panoptic Segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Attention-Guided_Unified_Network_for_Panoptic_Segmentation_CVPR_2019_paper.pdf) [[blog]](http://yvesxu.com/2020/12/01/20201201-papers-002/)
@@ -55,26 +55,26 @@ $$PQ = \frac{\sum_{(p,g)\in TP}IoU(p,g)}{|TP|+\frac{1}{2}|FP|+\frac{1}{2}|FP|} =
 - Seamless Scene Segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Porzi_Seamless_Scene_Segmentation_CVPR_2019_paper.pdf)
 
 ### ECCV
-####2020
+#### 2020
 - Axial-DeepLab: Stand-Alone Axial-Attention for Panoptic Segmentation [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490103.pdf) [[unofficial code]](https://github.com/csrhddlam/axial-deeplab)
 ####2018
 - Weakly- and Semi-Supervised Panoptic Segmentation [[paper]](https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Anurag_Arnab_Weakly-_and_Semi-Supervised_ECCV_2018_paper.pdf) [[code]](https://github.com/qizhuli/Weakly-Supervised-Panoptic-Segmentation)
 
 ### ICCV
-####2019
+#### 2019
 - AdaptIS: Adaptive Instance Selection Network [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Sofiiuk_AdaptIS_Adaptive_Instance_Selection_Network_ICCV_2019_paper.pdf) [[code]](https://github.com/saic-vul/adaptis/tree/pytorch)
 
 ### AAAI
-####2020
+#### 2020
 - SOGNet: Scene Overlap Graph Network for Panoptic Segmentation [[paper]](
 https://ojs.aaai.org/index.php/AAAI/article/download/6955/6809) [[code]](https://github.com/LaoYang1994/SOGNet)
 
 ### IROS 
-####2020
+#### 2020
 - Single-Shot Panoptic Segmentation [[paper]](https://ras.papercept.net/proceedings/IROS20/0102.pdf)
 
 ### NIPS
-####2020
+#### 2020
 - Auto-Panoptic: Cooperative Multi-Component Architecture Search for Panoptic Segmentation [[paper]](https://papers.nips.cc/paper/2020/file/ec1f764517b7ffb52057af6df18142b7-Paper.pdf) [[code]](https://github.com/Jacobew/AutoPanoptic)
 - SOLOv2: Dynamic and Fast Instance Segmentation [[paper]](https://papers.nips.cc/paper/2020/file/cd3afef9b8b89558cd56638c3631868a-Paper.pdf) [[code]](https://github.com/aim-uofa/AdelaiDet/)
 - Stable and expressive recurrent vision models [[paper]](https://papers.nips.cc/paper/2020/file/766d856ef1a6b02f93d894415e6bfa0e-Paper.pdf) [[empty code]](https://github.com/c-rbp/c-rbp)

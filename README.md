@@ -18,7 +18,7 @@ TODO List
 ![Panoptic segmentation](https://github.com/YvesXu/panoptic-segmentation-paper-list/blob/main/img/panoptic.png)
 
 ### Metrics
-$$PQ = \frac{\sum_{(p,g)\in TP}IoU(p,g)}{|TP|+\frac{1}{2}|FP|+\frac{1}{2}|FP|} = \underbrace{\frac{\sum_{(p,g)\in TP}IoU(p,g)}{|TP|}}_{\text{segmentation quality (SQ)}}\times \underbrace{\frac{|TP|}{|TP|+\frac{1}{2}|FP|+\frac{1}{2}|FP|}}_{\text{recognition quality(RQ)}}$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=PQ&space;=&space;\frac{\sum_{(p,g)\in&space;TP}IoU(p,g)}{|TP|&plus;\frac{1}{2}|FP|&plus;\frac{1}{2}|FP|}&space;=&space;\underbrace{\frac{\sum_{(p,g)\in&space;TP}IoU(p,g)}{|TP|}}_{\text{segmentation&space;quality&space;(SQ)}}\times&space;\underbrace{\frac{|TP|}{|TP|&plus;\frac{1}{2}|FP|&plus;\frac{1}{2}|FP|}}_{\text{recognition&space;quality(RQ)}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?PQ&space;=&space;\frac{\sum_{(p,g)\in&space;TP}IoU(p,g)}{|TP|&plus;\frac{1}{2}|FP|&plus;\frac{1}{2}|FP|}&space;=&space;\underbrace{\frac{\sum_{(p,g)\in&space;TP}IoU(p,g)}{|TP|}}_{\text{segmentation&space;quality&space;(SQ)}}\times&space;\underbrace{\frac{|TP|}{|TP|&plus;\frac{1}{2}|FP|&plus;\frac{1}{2}|FP|}}_{\text{recognition&space;quality(RQ)}}" title="PQ = \frac{\sum_{(p,g)\in TP}IoU(p,g)}{|TP|+\frac{1}{2}|FP|+\frac{1}{2}|FP|} = \underbrace{\frac{\sum_{(p,g)\in TP}IoU(p,g)}{|TP|}}_{\text{segmentation quality (SQ)}}\times \underbrace{\frac{|TP|}{|TP|+\frac{1}{2}|FP|+\frac{1}{2}|FP|}}_{\text{recognition quality(RQ)}}" /></a>
 
 ### Datesets
 - [COCO](https://cocodataset.org/#panoptic-leaderboard)

@@ -1,15 +1,3 @@
-<head>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']]
-            }
-        });
-    </script>
-</head>
-
 ## Panoptic Segmentation Paper List
 
 A paper list of panoptic segmentation using deep learning. Sorted by reverse order arXiv number.
@@ -27,13 +15,12 @@ TODO List
 ### Tasks
 [Panoptic segmentation](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kirillov_Panoptic_Segmentation_CVPR_2019_paper.pdf) unifies the typically distinct tasks of semantic segmentation (assign a class label to each pixel) and instance segmentation (detect and segment each object instance). Each pixel of an image must be assigned a semantic label and an instance id. Pixels with the same label and id belong to the same object; for stuff labels the instance id is ignored. 
 
-![Panoptic segmentation](http://hexotuchuang.oss-cn-beijing.aliyuncs.com/git/panoptic/panoptic.png)
+![Panoptic segmentation](https://github.com/YvesXu/panoptic-segmentation-paper-list/blob/main/img/panoptic.png)
 
 ### Metrics
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=PQ&space;=&space;\frac{\sum_{(p,g)\in&space;TP}IoU(p,g)}{|TP|&plus;\frac{1}{2}|FP|&plus;\frac{1}{2}|FP|}&space;=&space;\underbrace{\frac{\sum_{(p,g)\in&space;TP}IoU(p,g)}{|TP|}}_{\text{segmentation&space;quality&space;(SQ)}}\times&space;\underbrace{\frac{|TP|}{|TP|&plus;\frac{1}{2}|FP|&plus;\frac{1}{2}|FP|}}_{\text{recognition&space;quality(RQ)}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?PQ&space;=&space;\frac{\sum_{(p,g)\in&space;TP}IoU(p,g)}{|TP|&plus;\frac{1}{2}|FP|&plus;\frac{1}{2}|FP|}&space;=&space;\underbrace{\frac{\sum_{(p,g)\in&space;TP}IoU(p,g)}{|TP|}}_{\text{segmentation&space;quality&space;(SQ)}}\times&space;\underbrace{\frac{|TP|}{|TP|&plus;\frac{1}{2}|FP|&plus;\frac{1}{2}|FP|}}_{\text{recognition&space;quality(RQ)}}" title="PQ = \frac{\sum_{(p,g)\in TP}IoU(p,g)}{|TP|+\frac{1}{2}|FP|+\frac{1}{2}|FP|} = \underbrace{\frac{\sum_{(p,g)\in TP}IoU(p,g)}{|TP|}}_{\text{segmentation quality (SQ)}}\times \underbrace{\frac{|TP|}{|TP|+\frac{1}{2}|FP|+\frac{1}{2}|FP|}}_{\text{recognition quality(RQ)}}" /></a>
 
-$$PQ = \frac{\sum_{(p,g)\in TP}IoU(p,g)}{|TP|+\frac{1}{2}|FP|+\frac{1}{2}|FP|} = \underbrace{\frac{\sum_{(p,g)\in TP}IoU(p,g)}{|TP|}}_{\text{segmentation quality (SQ)}}\times \underbrace{\frac{|TP|}{|TP|+\frac{1}{2}|FP|+\frac{1}{2}|FP|}}_{\text{recognition quality(RQ)}}$$
 ### Datesets
 - [COCO](https://cocodataset.org/#panoptic-leaderboard)
 - [Cityscapes](https://www.cityscapes-dataset.com/benchmarks/#panoptic-scene-labeling-task)

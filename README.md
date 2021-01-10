@@ -7,11 +7,12 @@ Inspired by [deep learning_object_detection](https://github.com/hoya012/deep_lea
 *Last updated: 2021/01/10*
 
 Update log
-<u>2021/01/10 - Update AAAI 2021 result (Ada-Segment) and arXiv-2012</u>
 
-TODO List
+- <u>2021/01/10 - Update AAAI 2021 result (Ada-Segment) and arXiv-2012</u>
 
-- [ ] Benchmarks
+TODO
+
+- [ ] Benchmarks()
 ## Panoptic Segmentation
 
 ### Tasks

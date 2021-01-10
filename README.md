@@ -4,12 +4,14 @@ A paper list of panoptic segmentation using deep learning. Sorted by reverse ord
 
 Inspired by [deep learning_object_detection](https://github.com/hoya012/deep_learning_object_detection) and [awesome-panoptic-segmentation](https://github.com/Angzz/awesome-panoptic-segmentation).
 
-Last updated: 2020/12/18
+*Last updated: 2021/01/10*
+
+Update log
+<u>2021/01/10 - Update AAAI 2021 result (Ada-Segment) and arXiv-2012</u>
 
 TODO List
 
 - [ ] Benchmarks
-
 ## Panoptic Segmentation
 
 ### Tasks
@@ -20,6 +22,7 @@ TODO List
 ### Metrics
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=PQ&space;=&space;\frac{\sum_{(p,g)\in&space;TP}IoU(p,g)}{|TP|&plus;\frac{1}{2}|FP|&plus;\frac{1}{2}|FP|}&space;=&space;\underbrace{\frac{\sum_{(p,g)\in&space;TP}IoU(p,g)}{|TP|}}_{\text{segmentation&space;quality&space;(SQ)}}\times&space;\underbrace{\frac{|TP|}{|TP|&plus;\frac{1}{2}|FP|&plus;\frac{1}{2}|FP|}}_{\text{recognition&space;quality(RQ)}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?PQ&space;=&space;\frac{\sum_{(p,g)\in&space;TP}IoU(p,g)}{|TP|&plus;\frac{1}{2}|FP|&plus;\frac{1}{2}|FP|}&space;=&space;\underbrace{\frac{\sum_{(p,g)\in&space;TP}IoU(p,g)}{|TP|}}_{\text{segmentation&space;quality&space;(SQ)}}\times&space;\underbrace{\frac{|TP|}{|TP|&plus;\frac{1}{2}|FP|&plus;\frac{1}{2}|FP|}}_{\text{recognition&space;quality(RQ)}}" title="PQ = \frac{\sum_{(p,g)\in TP}IoU(p,g)}{|TP|+\frac{1}{2}|FP|+\frac{1}{2}|FP|} = \underbrace{\frac{\sum_{(p,g)\in TP}IoU(p,g)}{|TP|}}_{\text{segmentation quality (SQ)}}\times \underbrace{\frac{|TP|}{|TP|+\frac{1}{2}|FP|+\frac{1}{2}|FP|}}_{\text{recognition quality(RQ)}}" /></a>
+
 
 ### Datesets
 - [COCO](https://cocodataset.org/#panoptic-leaderboard)
@@ -59,6 +62,10 @@ TODO List
 - AdaptIS: Adaptive Instance Selection Network [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Sofiiuk_AdaptIS_Adaptive_Instance_Selection_Network_ICCV_2019_paper.pdf) [[code]](https://github.com/saic-vul/adaptis/tree/pytorch)
 
 ### AAAI
+
+#### 2021
+- Ada-Segment: Automated Multi-Loss Adaptation for Panoptic Segmentation[[paper]](https://arxiv.org/pdf/2012.03603.pdf)
+
 #### 2020
 - SOGNet: Scene Overlap Graph Network for Panoptic Segmentation [[paper]](
 https://ojs.aaai.org/index.php/AAAI/article/download/6955/6809) [[code]](https://github.com/LaoYang1994/SOGNet)
@@ -80,6 +87,8 @@ https://ojs.aaai.org/index.php/AAAI/article/download/6955/6809) [[code]](https:/
 
 ### arXiv
 #### 2020
+- Improving Panoptic Segmentation at All Scales [[paper]](https://arxiv.org/pdf/2012.07717.pdf)
+- ViP-DeepLab: Learning Visual Perception with Depth-aware Video Panoptic Segmentation [[paper]](https://arxiv.org/pdf/2012.05258.pdf)
 - Single-shot Path Integrated Panoptic Segmentation | 2012 | [[paper]](https://arxiv.org/pdf/2012.01632.pdf)
 - MaX-DeepLab: End-to-End Panoptic Segmentation with Mask Transformers | 2012 | [[paper]](https://arxiv.org/pdf/2012.00759.pdf)
 - Fully Convolutional Networks for Panoptic Segmentation | 2012 | [[paper]](https://arxiv.org/pdf/2012.00720.pdf)

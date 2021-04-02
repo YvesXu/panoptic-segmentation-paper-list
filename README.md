@@ -4,11 +4,11 @@ A paper list of panoptic segmentation using deep learning. Sorted by reverse ord
 
 Inspired by [deep learning_object_detection](https://github.com/hoya012/deep_learning_object_detection) and [awesome-panoptic-segmentation](https://github.com/Angzz/awesome-panoptic-segmentation).
 
-*Last updated: 2021/01/10*
+*Last updated: 2021/04/02*
 
 Update log
-
-- <u>2021/01/10 - Update AAAI 2021 result (Ada-Segment) and arXiv-2012</u>
+- <u>2021/04/02 - Update CVPR 2021 and arXiv'2101-2103</u>
+- <u>2021/01/10 - Update AAAI 2021 (Ada-Segment) and arXiv'2012</u>
 
 TODO
 
@@ -33,6 +33,11 @@ TODO
 
 ## Paper List
 ### CVPR
+#### 2021
+- Cross-View Regularization for Domain Adaptive Panoptic Segmentation [[paper]](https://arxiv.org/pdf/2103.02584)
+- Boundary IoU: Improving Object-Centric Image Segmentation Evaluation[[paper]](https://arxiv.org/pdf/2103.16562) [[project page]](https://bowenc0221.github.io/boundary-iou) [[code]](https://github.com/bowenc0221/boundary-iou-api)
+
+
 #### 2020
 - Bidirectional Graph Reasoning Network for Panoptic Segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wu_Bidirectional_Graph_Reasoning_Network_for_Panoptic_Segmentation_CVPR_2020_paper.pdf)
 - Pixel Consensus Voting for Panoptic Segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Pixel_Consensus_Voting_for_Panoptic_Segmentation_CVPR_2020_paper.pdf) [[empty code]](https://github.com/w-hc/pcv)
@@ -87,12 +92,18 @@ https://ojs.aaai.org/index.php/AAAI/article/download/6955/6809) [[code]](https:/
 - SpatialFlow: Bridging All Tasks for Panoptic Segmentation | TCSVT'20 |[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9180262) [[code]](https://github.com/chensnathan/SpatialFlow)
 
 ### arXiv
+#### 2021
+- Panoptic Lintention Network: Towards Efficient Navigational Perception for the Visually Impaired | 2103 | [[paper]](https://arxiv.org/abs/2103.04128)
+- Panoramic Panoptic Segmentation: Towards Complete Surrounding Understanding via Unsupervised Contrastive Learning | 2103 | [[paper]](https://arxiv.org/abs/2103.00868) [[empty code]](https://github.com/alexanderjaus/PPS)
+- Instance and Panoptic Segmentation Using Conditional Convolutions | 2102 | [[paper]] (https://arxiv.org/pdf/2102.03026.pdf) [[code]](https://github.com/CurryYuan/InstanceRefer) [[code]](https://github.com/aim-uofa/AdelaiDet/)
+- Joint Forecasting of Features and Feature Motion for Dense Semantic Future Prediction | 2101 | [[paper]](https://arxiv.org/pdf/2101.10620.pdf)
+
 #### 2020
 - Improving Panoptic Segmentation at All Scales [[paper]](https://arxiv.org/pdf/2012.07717.pdf)
-- ViP-DeepLab: Learning Visual Perception with Depth-aware Video Panoptic Segmentation [[paper]](https://arxiv.org/pdf/2012.05258.pdf)
+- ViP-DeepLab: Learning Visual Perception with Depth-aware Video Panoptic Segmentation [[paper]](https://arxiv.org/pdf/2012.05258.pdf) [[demo]](https://youtu.be/XR4HFiwwao0)  [[code]](https://github.com/joe-siyuan-qiao/ViP-DeepLab)
 - Single-shot Path Integrated Panoptic Segmentation | 2012 | [[paper]](https://arxiv.org/pdf/2012.01632.pdf)
 - MaX-DeepLab: End-to-End Panoptic Segmentation with Mask Transformers | 2012 | [[paper]](https://arxiv.org/pdf/2012.00759.pdf)
-- Fully Convolutional Networks for Panoptic Segmentation | 2012 | [[paper]](https://arxiv.org/pdf/2012.00720.pdf)
+- Fully Convolutional Networks for Panoptic Segmentation | 2012 | [[paper]](https://arxiv.org/pdf/2012.00720.pdf) [[code]](https://github.com/Jia-Research-Lab/PanopticFCN)
 - Scaling Wide Residual Networks for Panoptic Segmentation | 2011 | [[paper]](https://arxiv.org/pdf/2011.11675.pdf)
 - Unifying Instance and Panoptic Segmentation with Dynamic Rank-1 Convolutions | 2011 | [[paper]](https://arxiv.org/pdf/2011.09796.pdf)
 - Learning Panoptic Segmentation from Instance Contours | 2010 | [[paper]](https://arxiv.org/pdf/2010.11681.pdf)
@@ -113,6 +124,14 @@ https://ojs.aaai.org/index.php/AAAI/article/download/6955/6809) [[code]](https:/
 - Panoptic segmentation with a joint semantic and instance segmentation network | 1809 | [[paper]](https://arxiv.org/abs/1809.02110)
 
 ### Related Work
+- Panoptic-PolarNet: Proposal-free LiDAR Point Cloud Panoptic Segmentation | CVPR'21 | [[paper]](https://arxiv.org/pdf/2103.14962.pdf) [[code]](https://github.com/edwardzhou130/Panoptic-PolarNet)
+- SceneGraphFusion: Incremental 3D Scene Graph Prediction from RGB-D Sequences | CVPR'21 | [[paper]](https://arxiv.org/pdf/2103.14898.pdf) [[project page]](https://shunchengwu.github.io/SceneGraphFusion)
+- Video Class Agnostic Segmentation Benchmark for Autonomous Driving | arXiv'21 | [[paper]](https://arxiv.org/pdf/2103.11015.pdf)
+- InstanceRefer: Cooperative Holistic Understanding for Visual Grounding on Point Clouds through Instance Multi-level Contextual Referring | arXiv'21 | [[paper]](https://arxiv.org/pdf/2103.01128.pdf) [[code]](https://github.com/CurryYuan/InstanceRefer)
+- 4D Panoptic LiDAR Segmentation | arXiv'21 | [[paper]](https://arxiv.org/pdf/2102.12472)
+- STEP: Segmenting and Tracking Every Pixel | arXiv'21 | [[paper]](https://arxiv.org/pdf/2102.11859.pdf)
+- EfficientLPS: Efficient LiDAR Panoptic Segmentation | arXiv'21 | [[paper]](https://arxiv.org/pdf/2102.08009.pdf)
+- Adversarial Segmentation Loss for Sketch Colorization | arXiv'21 | [[paper]](https://arxiv.org/pdf/2102.06192.pdf) [[code]](https://github.com/giddyyupp/AdvSegLoss)
 - LiDAR Panoptic Segmentation for Autonomous Driving | IROS'20 | [[paper]](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/milioto2020iros.pdf)
 - Panoster: End-to-end Panoptic Segmentation of LiDAR Point Clouds | arXiv'20 | [[paper]](https://arxiv.org/pdf/2010.15157.pdf)
 - Can we cover navigational perception needs of the visually impaired by panoptic segmentation? | arXiv'20 | [[paper]](https://arxiv.org/pdf/2007.10202.pdf)

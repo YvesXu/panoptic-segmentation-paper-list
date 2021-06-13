@@ -50,8 +50,8 @@ TODO
 
 #### 2019
 - Seamless Scene Segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Porzi_Seamless_Scene_Segmentation_CVPR_2019_paper.pdf)
-- **[OANet]** An End-to-End Network for Panoptic Segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_An_End-To-End_Network_for_Panoptic_Segmentation_CVPR_2019_paper.pdf)
-- **[UPSNet]** UPSNet: A Unified Panoptic Segmentation Network [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xiong_UPSNet_A_Unified_Panoptic_Segmentation_Network_CVPR_2019_paper.pdf) [[code]](https://github.com/uber-research/UPSNet)
+- **[OANet]** An End-to-End Network for Panoptic Segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_An_End-To-End_Network_for_Panoptic_Segmentation_CVPR_2019_paper.pdf) [[blog]](http://yvesxu.com/2020/11/11/20201111-papers-005/)
+- **[UPSNet]** UPSNet: A Unified Panoptic Segmentation Network [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xiong_UPSNet_A_Unified_Panoptic_Segmentation_Network_CVPR_2019_paper.pdf) [[code]](https://github.com/uber-research/UPSNet) [[blog]](http://yvesxu.com/2020/11/11/20201111-papers-004/)
 - **[Panoptic FPN]** Panoptic Feature Pyramid Networks [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kirillov_Panoptic_Feature_Pyramid_Networks_CVPR_2019_paper.pdf) [[code]](https://github.com/facebookresearch/detectron2) [[blog]](http://yvesxu.com/2020/11/11/20201111-papers-001/)
 - **[AUNet]** Attention-guided Unified Network for Panoptic Segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Attention-Guided_Unified_Network_for_Panoptic_Segmentation_CVPR_2019_paper.pdf) [[blog]](http://yvesxu.com/2020/12/01/20201201-papers-002/)
 - Panoptic Segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kirillov_Panoptic_Segmentation_CVPR_2019_paper.pdf) 
@@ -172,12 +172,16 @@ https://ojs.aaai.org/index.php/AAAI/article/download/6955/6809) [[code]](https:/
 |OCFusion(ResNeXt-101)|46.3|53.5|35.4|
 |Panoptic-DeepLab(Xception-71)|41.2|44.9|35.7|
 |Real-Time Panoptic Segmentation(ResNet-50)|37.1|41.0|31.3|
+|OANet(ResNet-50)|39.0|48.3|24.9|
+|OANet(ResNet-101)|40.7|50.0|26.6|
+
 
 #### *test-dev* set
-|title|PQ|PQ<sup>Th</sup>|PQ<sup>St</sup>|
-|-|-|-|-|
-|OCFusion(ResNeXt-101)|46.7|54.0|35.7|
-|Panoptic-DeepLab(Xception-71)|41.4|45.1|35.9|
+|title|year|PQ|PQ<sup>Th</sup>|PQ<sup>St</sup>|
+|-|-|-|-|-|
+|OCFusion(ResNeXt-101)||46.7|54.0|35.7|
+|Panoptic-DeepLab(Xception-71)||41.4|45.1|35.9|
+|OANet(ResNet-101)|2018|41.3|50.4|27.7|
 
 ### Mapillary Vistas
 #### *val* set

@@ -4,15 +4,13 @@ A paper list of panoptic segmentation using deep learning. Sorted by reverse ord
 
 Inspired by [deep learning_object_detection](https://github.com/hoya012/deep_learning_object_detection) and [awesome-panoptic-segmentation](https://github.com/Angzz/awesome-panoptic-segmentation).
 
-*Last updated: 2021/04/02*
+*Last updated: 2021/09/05*
 
 Update log
+- <u>2021/09/05 - Update arXiv'2104-2108</u>
 - <u>2021/04/02 - Update CVPR 2021 and arXiv'2101-2103</u>
 - <u>2021/01/10 - Update AAAI 2021 (Ada-Segment) and arXiv'2012</u>
 
-TODO
-
-- [ ] Benchmarks()
 ## Panoptic Segmentation
 
 ### Tasks
@@ -53,7 +51,7 @@ TODO
 - **[OANet]** An End-to-End Network for Panoptic Segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_An_End-To-End_Network_for_Panoptic_Segmentation_CVPR_2019_paper.pdf) [[blog]](https://yvesxu.com/2021/06/01/20210601-papers-005/)
 - **[UPSNet]** UPSNet: A Unified Panoptic Segmentation Network [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xiong_UPSNet_A_Unified_Panoptic_Segmentation_Network_CVPR_2019_paper.pdf) [[code]](https://github.com/uber-research/UPSNet) [[blog]](https://yvesxu.com/2021/01/11/20210111-papers-004/)
 - **[Panoptic FPN]** Panoptic Feature Pyramid Networks [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kirillov_Panoptic_Feature_Pyramid_Networks_CVPR_2019_paper.pdf) [[code]](https://github.com/facebookresearch/detectron2) [[blog]](http://yvesxu.com/2020/11/11/20201111-papers-001/)
-- **[AUNet]** Attention-guided Unified Network for Panoptic Segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Attention-Guided_Unified_Network_for_Panoptic_Segmentation_CVPR_2019_paper.pdf) [[blog]](http://yvesxu.com/2020/12/01/20201201-papers-002/)
+- **[<span id="aunet">AUNet</span>]** Attention-guided Unified Network for Panoptic Segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Attention-Guided_Unified_Network_for_Panoptic_Segmentation_CVPR_2019_paper.pdf) [[blog]](http://yvesxu.com/2020/12/01/20201201-papers-002/)
 - Panoptic Segmentation [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kirillov_Panoptic_Segmentation_CVPR_2019_paper.pdf) 
 
 ### ECCV
@@ -93,6 +91,15 @@ https://ojs.aaai.org/index.php/AAAI/article/download/6955/6809) [[code]](https:/
 
 ### arXiv
 #### 2021
+- Fully Convolutional Networks for Panoptic Segmentation with Point-based Supervision | 2108 | [[paper]](https://arxiv.org/pdf/2108.07682.pdf)
+- Per-Pixel Classification is Not All You Need for Semantic Segmentation | 2107 |[[paper]](https://arxiv.org/pdf/2107.06278.pdf)
+- SE-PSNet: Silhouette-based Enhancement Feature for Panoptic Segmentation Network | 2107 |[[paper]](https://arxiv.org/pdf/2107.05093.pdf)
+- K-Net: Towards Unified Image Segmentation | 2107 | [[paper]](https://arxiv.org/pdf/2106.14855.pdf)
+- Hierarchical Lovasz Embeddings for Proposal-free Panoptic Segmentation | 2106 | [[paper]](https://arxiv.org/pdf/2106.04555.pdf)
+- Combinatorial Optimization for Panoptic Segmentation: An End-to-End Trainable Approach | 2106 | [[paper]](https://arxiv.org/pdf/2106.03188.pdf)
+- Multi-Scale Feature Aggregation by Cross-Scale Pixel-to-Region Relation Operation for Semantic Segmentation | 2106 | [[paper]](https://arxiv.org/pdf/2106.01744.pdf)
+- Exemplar-Based Open-Set Panoptic Segmentation Network | 2105 | [[paper]](https://arxiv.org/pdf/2105.08336.pdf)
+- Boundary IoU: Improving Object-Centric Image Segmentation Evaluation | 2103 | [[paper]](https://arxiv.org/pdf/2103.16562.pdf)
 - Panoptic Lintention Network: Towards Efficient Navigational Perception for the Visually Impaired | 2103 | [[paper]](https://arxiv.org/abs/2103.04128)
 - Panoramic Panoptic Segmentation: Towards Complete Surrounding Understanding via Unsupervised Contrastive Learning | 2103 | [[paper]](https://arxiv.org/abs/2103.00868) [[empty code]](https://github.com/alexanderjaus/PPS)
 - Instance and Panoptic Segmentation Using Conditional Convolutions | 2102 | [[paper]] (https://arxiv.org/pdf/2102.03026.pdf) [[code]](https://github.com/CurryYuan/InstanceRefer) [[code]](https://github.com/aim-uofa/AdelaiDet/)
@@ -124,19 +131,35 @@ https://ojs.aaai.org/index.php/AAAI/article/download/6955/6809) [[code]](https:/
 - Panoptic segmentation with a joint semantic and instance segmentation network | 1809 | [[paper]](https://arxiv.org/abs/1809.02110)
 
 ### Related Work
+#### LiDAR Panoptic Segmentation
+- SMAC-Seg: LiDAR Panoptic Segmentation via Sparse Multi-directional Attention Clustering | arXiv'21 | [[paper]](https://arxiv.org/pdf/2108.13588.pdf)
+- A Technical Survey and Evaluation of Traditional Point Cloud Clustering Methods for LiDAR Panoptic Segmentation | arXiv'21 | [[paper]](https://arxiv.org/pdf/2108.09522.pdf)
+- GP-S3Net: Graph-based Panoptic Sparse Semantic Segmentation Network | arXiv'21 | [[paper]](https://arxiv.org/pdf/2108.08401.pdf)
 - Panoptic-PolarNet: Proposal-free LiDAR Point Cloud Panoptic Segmentation | CVPR'21 | [[paper]](https://arxiv.org/pdf/2103.14962.pdf) [[code]](https://github.com/edwardzhou130/Panoptic-PolarNet)
+- 4D Panoptic LiDAR Segmentation | arXiv'21 | [[paper]](https://arxiv.org/pdf/2102.12472)
+- LiDAR Panoptic Segmentation for Autonomous Driving | IROS'20 | [[paper]](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/milioto2020iros.pdf)
+- EfficientLPS: Efficient LiDAR Panoptic Segmentation | arXiv'21 | [[paper]](https://arxiv.org/pdf/2102.08009.pdf)
+- Panoster: End-to-end Panoptic Segmentation of LiDAR Point Clouds | arXiv'20 | [[paper]](https://arxiv.org/pdf/2010.15157.pdf)
+
+#### Video Panoptic Segmetation
+- Merging Tasks for Video Panoptic Segmentation | arXiv'21 | [[paper]](https://arxiv.org/pdf/2108.04223.pdf)
+- Learning to Associate Every Segment for Video Panoptic Segmentation | arXiv'21 | [[paper]](https://arxiv.org/pdf/2106.09453.pdf)
+- Panoptic Segmentation Forecasting | arXiv'21 | [[paper]](https://arxiv.org/pdf/2104.03962.pdf)
+- Video Panoptic Segmentation | CVPR'20 | [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Kim_Video_Panoptic_Segmentation_CVPR_2020_paper.pdf)
+
+#### Others
+- Bird's-Eye-View Panoptic Segmentation Using Monocular Frontal View Images | arXiv'21 | [[paper]](https://arxiv.org/pdf/2108.03227.pdf)
+- Panoptic Segmentation of Satellite Image Time Series with Convolutional Temporal Attention Networks | arXiv'21 | [[paper]](https://arxiv.org/pdf/2107.07933.pdf)
+- Part-aware Panoptic Segmentation | arXiv'21 | [[paper]](https://arxiv.org/pdf/2106.06351.pdf)
+
+
 - SceneGraphFusion: Incremental 3D Scene Graph Prediction from RGB-D Sequences | CVPR'21 | [[paper]](https://arxiv.org/pdf/2103.14898.pdf) [[project page]](https://shunchengwu.github.io/SceneGraphFusion)
 - Video Class Agnostic Segmentation Benchmark for Autonomous Driving | arXiv'21 | [[paper]](https://arxiv.org/pdf/2103.11015.pdf)
 - InstanceRefer: Cooperative Holistic Understanding for Visual Grounding on Point Clouds through Instance Multi-level Contextual Referring | arXiv'21 | [[paper]](https://arxiv.org/pdf/2103.01128.pdf) [[code]](https://github.com/CurryYuan/InstanceRefer)
-- 4D Panoptic LiDAR Segmentation | arXiv'21 | [[paper]](https://arxiv.org/pdf/2102.12472)
 - STEP: Segmenting and Tracking Every Pixel | arXiv'21 | [[paper]](https://arxiv.org/pdf/2102.11859.pdf)
-- EfficientLPS: Efficient LiDAR Panoptic Segmentation | arXiv'21 | [[paper]](https://arxiv.org/pdf/2102.08009.pdf)
 - Adversarial Segmentation Loss for Sketch Colorization | arXiv'21 | [[paper]](https://arxiv.org/pdf/2102.06192.pdf) [[code]](https://github.com/giddyyupp/AdvSegLoss)
-- LiDAR Panoptic Segmentation for Autonomous Driving | IROS'20 | [[paper]](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/milioto2020iros.pdf)
-- Panoster: End-to-end Panoptic Segmentation of LiDAR Point Clouds | arXiv'20 | [[paper]](https://arxiv.org/pdf/2010.15157.pdf)
 - Can we cover navigational perception needs of the visually impaired by panoptic segmentation? | arXiv'20 | [[paper]](https://arxiv.org/pdf/2007.10202.pdf)
 - Efficient Full Image Interactive Segmentation by Leveraging Within-image Appearance Similarity | arXiv'20 | [[paper]](https://arxiv.org/pdf/2007.08173.pdf)
-- Video Panoptic Segmentation | CVPR'20 | [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Kim_Video_Panoptic_Segmentation_CVPR_2020_paper.pdf)
 - Panoptic Instance Segmentation on Pigs | arXiv'20 |[[paper]](https://arxiv.org/pdf/2005.10499.pdf)
 - Naive-Student: Leveraging Semi-Supervised Learning in Video Sequences for Urban Scene Segmentation | ECCV'20 | [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540664.pdf)
 - Unsupervised Instance Segmentation in Microscopy Images via Panoptic Domain Adaptation and Task Re-Weighting | CVPR'20 | [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Unsupervised_Instance_Segmentation_in_Microscopy_Images_via_Panoptic_Domain_Adaptation_CVPR_2020_paper.pdf)
@@ -151,6 +174,7 @@ https://ojs.aaai.org/index.php/AAAI/article/download/6955/6809) [[code]](https:/
 - Panopticfusion: Online volumetric semantic mapping at the level of stuff and things | IROS'19 | [[paper]](https://arxiv.org/pdf/1903.01177.pdf)
 - Interactive Full Image Segmentation by Considering All Regions Jointly | CVPR'19 | [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Agustsson_Interactive_Full_Image_Segmentation_by_Considering_All_Regions_Jointly_CVPR_2019_paper.pdf)
 
+
 ## Benchmarks
 
 ### Cityscapes
@@ -159,6 +183,9 @@ https://ojs.aaai.org/index.php/AAAI/article/download/6955/6809) [[code]](https:/
 |-|-|-|-|
 |OCFusion(ResNet-50)|60.2|54.0|64.7|
 |Real-Time Panoptic Segmentation(ResNet-50)|58.8|52.1|63.7|
+|AUNet(ResNet-50)|56.4|52.7|59.0|
+|AUNet(ResNet-101)|59.0|54.8|62.1|
+
 
 #### *test* set
 |title|PQ|PQ<sup>Th</sup>|PQ<sup>St</sup>|
@@ -170,15 +197,19 @@ https://ojs.aaai.org/index.php/AAAI/article/download/6955/6809) [[code]](https:/
 |title|PQ|PQ<sup>Th</sup>|PQ<sup>St</sup>|
 |-|-|-|-|
 |OCFusion(ResNeXt-101)|46.3|53.5|35.4|
+|Panoptic FPN|58.1|52.0|62.5|
 |Panoptic-DeepLab(Xception-71)|41.2|44.9|35.7|
 |Real-Time Panoptic Segmentation(ResNet-50)|37.1|41.0|31.3|
 |OANet(ResNet-50)|39.0|48.3|24.9|
 |OANet(ResNet-101)|40.7|50.0|26.6|
 
-
 #### *test-dev* set
 |title|year|PQ|PQ<sup>Th</sup>|PQ<sup>St</sup>|
 |-|-|-|-|-|
+|Panoptic FPN||40.9|48.3|29.7|
+|AUNet(ResNet-101)||45.2|54.4|31.3|
+|AUNet(ResNet-152)||45.5|54.7|31.6|
+|AUNet(ResNeXt-152)||46.5|55.8|32.5|
 |OCFusion(ResNeXt-101)||46.7|54.0|35.7|
 |Panoptic-DeepLab(Xception-71)||41.4|45.1|35.9|
 |OANet(ResNet-101)|2018|41.3|50.4|27.7|
